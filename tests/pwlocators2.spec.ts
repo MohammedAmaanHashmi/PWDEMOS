@@ -50,7 +50,8 @@ test("VerifyPlaywright locators", async ({ page }) => {
   await page.getByPlaceholder('Password').first().fill("Skynet@1998");
 
 
-  await page.goto("file:///C:/Users/Amaan/Downloads/app.html");
+ // await page.goto("file:///C:/Users/Amaan/Downloads/app.html");
+  await page.goto("http://127.0.0.1:5500/tests/app.html");
 
   //  const link: Locator = page.getByTitle("Home page link");
   // await expect(link).toHaveText("Home");
