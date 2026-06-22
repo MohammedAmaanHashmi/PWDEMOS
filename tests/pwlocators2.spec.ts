@@ -16,7 +16,7 @@ DOM is an API Interface Provided by browser
 
 import { test, expect, Locator } from "@playwright/test"
 
-test("VerifyPlaywright locators", async ({ page }) => {
+test("Verify Playwright locators on open cart", async ({ page }) => {
   await page.goto("https://naveenautomationlabs.com/opencart/");
 
   // 1. page.getByAltText() - identifies images (and similar elements) based on the alt attribute.
