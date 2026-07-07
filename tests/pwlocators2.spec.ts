@@ -1,4 +1,4 @@
-2/*
+/*
 
 Locator - Identifies the element on the page
 DOM - Document  Object Model
